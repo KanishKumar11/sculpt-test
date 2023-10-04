@@ -12,10 +12,11 @@ const Home = () => {
     <>
       <Script
         strategy="lazyOnload"
+        id="g"
         src={`https://www.googletagmanager.com/gtag/js?id=G-1YH9SXSLKW`}
       />
 
-      <Script strategy="lazyOnload">
+      <Script strategy="lazyOnload" id="g">
         {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
