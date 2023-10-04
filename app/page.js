@@ -4,14 +4,32 @@ import Navbar from "./components/Navbar";
 import Hero from "./sections/Hero";
 import Mobile from "./sections/Mobile";
 import { motion } from "framer-motion";
+import Script from "next/script";
+import Logo from "./components/Logo";
+import Button from "./components/Button";
 const Home = () => {
   return (
     <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-1YH9SXSLKW`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-1YH9SXSLKW', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+      </Script>
       <div className="lg:block hidden relative bg-white w-full h-[4600px]  12l:h-[4400px] overflow-hidden text-left text-lg text-black font-body1">
         <Navbar />
         <Hero />
 
-        <div className="absolute top-[2720px] z-50 12l:top-[2430px] bg-white pt-10 flex flex-row items-start justify-start py-8 px-[80px] gap-[50px] text-45xl font-subtitle-1">
+        <div className="absolute top-[2720px] z-50 12l:top-[2480px] pt-20 bg-white flex flex-row items-start justify-start py-8 px-[80px] gap-[50px] text-45xl font-subtitle-1">
           <div className="12l:min-w-[550px] min-w-[300px] flex flex-col items-start justify-start gap-[16px]">
             <div className=" font-semibold">{`Why build Sculpt `}</div>
             <div className=" relative text-xl">
@@ -52,8 +70,9 @@ const Home = () => {
               <span>.</span>
             </div>
           </div>
-          <div className="rounded-lg bg-purple-100 flex flex-row items-end justify-start py-3.5 px-10 text-left text-xl text-white">
-            <div className="relative font-semibold">{` Wishlist now  `}</div>
+          <div className="rounded-lg flex flex-row items-end justify-start py-3.5 px-10 text-left text-xl text-white">
+            {/* <div className="relative font-semibold">{` Wishlist now  `}</div> */}
+            <Button />
           </div>
         </div>
         <motion.div
@@ -120,22 +139,27 @@ const Home = () => {
             right: 50,
             bottom: 50,
           }}
-          className="absolute top-[3680px] 12l:top-[3586px] -right-20 rounded-lg h-[100px] flex flex-row items-center justify-start p-4 gap-[16px] [transform:_rotate(0.24deg)] [transform-origin:0_0] text-5xl text-text-primary1 font-subtitle-1"
+          className="absolute top-[3680px] cursor-pointer 12l:top-[3586px] -right-20 rounded-lg h-[100px] flex flex-row items-center justify-start p-4 gap-[16px] [transform:_rotate(0.24deg)] [transform-origin:0_0] text-5xl text-text-primary1 font-subtitle-1"
         >
-          <img
-            src="./asset25.svg"
-            className="[user-select:none] [user-drag:none]"
-          />
+          <a href="mailto:kulkarnisampreet9@gmail.com">
+            {" "}
+            <img
+              src="./asset25.svg"
+              className="[user-select:none] [user-drag:none]"
+            />
+          </a>
         </motion.div>
-        <div className="absolute bottom-[0px] bg-white box-border w-full flex flex-col items-start justify-start pt-20 px-[120px] pb-32 gap-[120px] text-xl text-purple-100 border-t-[1px] border-solid border-grey-5">
-          <div className="w-[90%] flex flex-row items-start justify-between">
+        <div className="absolute bottom-[0px] bg-white box-border w-full flex flex-col items-start justify-start pt-20 px-[88px] pb-20 gap-[40px] text-xl text-purple-100 border-t-[1px] border-solid border-grey-5">
+          <div className="w-full flex flex-row items-start justify-between">
             <div className="flex flex-row items-start justify-start py-0 pr-0 pl-[5px] gap-[60px]">
-              <div className="relative leading-[140%]">{`Join the Wishlist `}</div>
+              <div className="relative leading-[140%]">{`Join Wishlist `}</div>
               <a
                 href="mailto:kulkarnisampreet9@gmail.com"
                 className="[text-decoration:none] text-purple-950"
               >
-                <div className="relative leading-[140%]">Contact Us</div>
+                <div className="relative leading-[140%] text-black">
+                  Contact Us
+                </div>
               </a>
             </div>
             <a href="#">
@@ -146,9 +170,11 @@ const Home = () => {
               />
             </a>
           </div>
-          <div className="w-[857px] flex flex-col items-start justify-start text-45xl font-subtitle-1">
+          <div className="w-full flex flex-col items-start justify-start text-45xl font-subtitle-1">
             <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
-              <div className="relative font-medium inline-block w-[513px]">{`Sculpt  `}</div>
+              <div className="relative font-medium inline-block w-[513px]">
+                <img src="./logo.svg" />
+              </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[14px] text-xl text-text-primary">
                 <div className="self-stretch relative">{`College-specific chat-based community app that provides building blocks to eliminate loneliness, procrastination & increase productivity.`}</div>
                 <div className="relative text-base leading-[140%] font-body1 text-purple-100">

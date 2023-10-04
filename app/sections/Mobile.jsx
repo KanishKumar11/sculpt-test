@@ -96,7 +96,7 @@ const Mobile = () => {
             <img
               className="relative rounded-lg w-12 h-12"
               alt=""
-              src="/asset11.svg"
+              src="/asset12.svg"
             />
             <div className="self-stretch relative font-medium">{`Improving college life `}</div>
             <div className="self-stretch relative text-sm">{`With our tech & sections from great minds to college students, we are confident that we will elevate and enhance your college experience.`}</div>
@@ -122,9 +122,9 @@ const Mobile = () => {
               can become cluttered for students and college staff.
             </div>
           </div>
-          <div className="w-[300px] max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-purple-200">
+          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-[#535353]">
             <div className="self-stretch relative font-semibold">
-              <span>Loneliness</span>
+              <span className="text-purple-200">Loneliness</span>
               <span className="text-black">{` `}</span>
               <span>:</span>
               <span className="text-black">
@@ -134,23 +134,23 @@ const Mobile = () => {
             </div>
             <div className="self-stretch relative text-sm text-text-secoundry">{`Loneliness among college students is common as they struggle to find peers who share their interests, skills, and thoughts. I have personally experienced this problem and unfortunately lots of students commit suicide due to this problem `}</div>
           </div>
-          <div className="w-[300px] max-w-[355px] flex flex-col items-start justify-start gap-[8px]">
+          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px]">
             <div className="self-stretch relative font-semibold">
               <span>{`Student `}</span>
               <span className="text-purple-200">communities....</span>
               <span>{` `}</span>
             </div>
-            <div className="self-stretch relative text-sm text-text-secoundry">
+            <div className="text-[#575757] self-stretch relative text-sm text-text-secoundry">
               Lack of college student community for connecting, creating,
               collaborating, and growing together.
             </div>
           </div>
-          <div className="w-[300px] max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-purple-200">
+          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-purple-200">
             <div className="self-stretch relative font-semibold">
               <span>{`Procrastination: `}</span>
               <span className="text-black">{`a challenge.  `}</span>
             </div>
-            <div className="self-stretch relative text-sm text-text-secoundry">
+            <div className=" text-[#575757] self-stretch relative text-sm text-text-secoundry">
               Students face the challenge of procrastination due to social media
               use, lack of motivation, and seeking social validation.
             </div>
@@ -228,7 +228,12 @@ const Mobile = () => {
           </div>
         </div>
         <div className="absolute -top-[70px] right-2 rounded-lg flex flex-row items-center justify-start p-4 box-border [transform:_rotate(9.15deg)] [transform-origin:0_0] text-text-primary1">
-          <img src="./asset24.svg" alt="" className="w-[300px]" />
+          <a
+            href="mailto:kulkarnisampreet9@gmail.com
+"
+          >
+            <img src="./asset24.svg" alt="" className="w-[300px]" />
+          </a>
         </div>
       </div>
       <div className="absolute bottom-[0px] w-full bg-common-white shadow-[0px_0px_2px_rgba(145,_158,_171,_0.2),_0px_12px_24px_-4px_rgba(145,_158,_171,_0.12)] flex flex-col items-end justify-start py-10 px-4 box-border gap-[40px] text-purple-100">
@@ -240,11 +245,13 @@ const Mobile = () => {
           />
         </a>
         <div className="self-stretch flex flex-row items-start justify-start gap-[16px]">
-          <div className="relative leading-[140%]">{`Join the Wishlist `}</div>
+          <div className="relative leading-[140%]">{`Join Wishlist `}</div>
         </div>
         <div className="self-stretch flex flex-col items-start justify-start text-13xl font-h4-medium">
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">
-            <div className="relative font-medium inline-block w-[513px]">{`Sculpt  `}</div>
+            <div className="relative font-medium inline-block w-[513px]">
+              <img src="./logo.svg" />
+            </div>
             <div className="self-stretch flex flex-col items-start justify-start gap-[14px] text-sm text-text-primary">
               <div className="self-stretch relative">{`College-specific chat-based community app that provides building blocks to eliminate loneliness, procrastination & increase productivity.`}</div>
               <div className="relative text-base leading-[140%] font-poppins text-purple-100">

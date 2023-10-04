@@ -167,14 +167,14 @@ const Hero = () => {
           src="/asset9.svg"
         />
       </div>
-      <div className="absolute top-[1150px] 12:top-[1200px] left-[1px] bg-lavender-100 w-full h-[1450px] 12l:h-[1170px]" />
+      <div className="absolute top-[1150px] 12:top-[1200px] left-[1px] bg-lavender-100 w-full h-[1450px] 12l:h-[1250px]" />
       <div className="absolute top-[1800px] flex flex-col items-center justify-center w-full gap-[80px] text-center text-45xl font-subtitle-1">
         <div className="flex flex-col items-center justify-start gap-[24px]">
           <div className="self-stretch relative font-semibold">{`THIS IS SCULPT `}</div>
           <div className="self-stretch relative text-xl w-[1000px]">{`A college-specific chat-based platform where you can chat, study & use it as a productivity platform & it’s a platform where you can find like-minded peers from colleges to build communities, learn & grow together `}</div>
         </div>
-        <div className="w-full gap-10 px-10 flex flex-wrap items-center justify-center text-left text-13xl">
-          <div className="rounded-2xl bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
+        <div className="w-full gap-10 px-10 mx-10 flex flex-wrap items-center justify-center text-left text-13xl">
+          <div className="w-[25%] h-auto rounded-2xl bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
             <img
               className="relative rounded-lg w-12 h-12"
               alt=""
@@ -188,7 +188,7 @@ const Hero = () => {
               students can organize, chat, and document stuff like never before.
             </div>
           </div>
-          <div className="rounded-2xl bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
+          <div className="rounded-2xl h-auto w-[25%] bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
             <img
               className="relative rounded-lg w-12 h-12"
               alt=""
@@ -197,7 +197,7 @@ const Hero = () => {
             <div className="relative font-medium inline-block w-[375px]">{`Building Communities `}</div>
             <div className="relative text-base inline-block w-[375px]">{`Creating the best community experience where you can interact with like-minded people, create communities & grow together 🚀`}</div>
           </div>
-          <div className="rounded-2xl bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
+          <div className="rounded-2xl h-auto w-[25%] bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
             <img
               className="relative rounded-lg w-12 h-12"
               alt=""
