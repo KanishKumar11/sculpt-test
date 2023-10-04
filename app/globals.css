@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+.App {
+    text-align: center;
+  }
+  
+  #image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .rotate {
+    max-width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
