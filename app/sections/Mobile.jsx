@@ -103,8 +103,8 @@ const Mobile = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[2244px] tab:top-[2244px] flex flex-col items-start justify-start w-full py-6 px-4 gap-[40px] text-13xl font-h4-medium">
-        <div className="self-stretch flex flex-col items-center justify-center gap-[4px] w-full mt-10 max-w-[350px]">
+      <div className="absolute top-[2244px] tab:top-[2244px] flex flex-col items-start justify-start w-full py-6 px-6 pr-8 gap-[40px] text-13xl font-h4-medium">
+        <div className="self-stretch flex flex-col items-center justify-center gap-[4px] md:w-full mt-10  max-w-[350px] w-[340px]">
           <div className="self-stretch relative font-semibold">{`Why build Sculpt `}</div>
           <div className="self-stretch relative text-sm text-text-secoundry">
             We are thrilled to be building Sculpt and our main objective is to
@@ -112,7 +112,7 @@ const Mobile = () => {
           </div>
         </div>
         <div className="w-full flex flex-col items-start justify-center gap-[32px] text-base">
-          <div className="w-full max-w-[355px] flex flex-col items-center justify-start gap-[8px]">
+          <div className="md:w-full max-w-[355px] flex flex-col items-center justify-start gap-[8px] w-[340px]">
             <div className="self-stretch relative font-semibold">
               <span>{`Lack of student focused `}</span>
               <span className="text-purple-200">chat system.</span>
@@ -122,7 +122,7 @@ const Mobile = () => {
               can become cluttered for students and college staff.
             </div>
           </div>
-          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-[#535353]">
+          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-[#535353] w-[340px]">
             <div className="self-stretch relative font-semibold">
               <span className="text-purple-200">Loneliness</span>
               <span className="text-black">{` `}</span>
@@ -134,7 +134,7 @@ const Mobile = () => {
             </div>
             <div className="self-stretch relative text-sm text-text-secoundry">{`Loneliness among college students is common as they struggle to find peers who share their interests, skills, and thoughts. I have personally experienced this problem and unfortunately lots of students commit suicide due to this problem `}</div>
           </div>
-          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px]">
+          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px] w-[340px]">
             <div className="self-stretch relative font-semibold">
               <span>{`Student `}</span>
               <span className="text-purple-200">communities....</span>
@@ -145,7 +145,7 @@ const Mobile = () => {
               collaborating, and growing together.
             </div>
           </div>
-          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-purple-200">
+          <div className="max-w-[95%] md:max-w-[355px] flex flex-col items-start justify-start gap-[8px] text-purple-200 w-[340px]">
             <div className="self-stretch relative font-semibold">
               <span>{`Procrastination: `}</span>
               <span className="text-black">{`a challenge.  `}</span>
@@ -177,7 +177,7 @@ const Mobile = () => {
             </div>
           </div>
           <div className="rounded-lg  flex flex-row items-center justify-start py-4 px-6 box-border text-sm text-common-white">
-            <Button text="Wishlist now" />
+            <Button />
           </div>
         </div>
         <div className="absolute top-[418.45px] left-2 rounded-lg bg-common-white shadow-[0px_0px_2px_rgba(145,_158,_171,_0.2),_0px_12px_24px_-4px_rgba(145,_158,_171,_0.12)] overflow-hidden flex flex-col items-start justify-start p-4 gap-[12px] [transform:_rotate(-0.03deg)] [transform-origin:0_0] text-purple-100">

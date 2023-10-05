@@ -11,7 +11,7 @@ const Navbar = () => {
         <Logo />
       </div>
       <div className="">
-        <Button text="Whishlist now" />
+        <Button />
       </div>
     </div>
   );

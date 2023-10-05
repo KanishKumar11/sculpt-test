@@ -77,7 +77,7 @@ const Hero = () => {
           </div>
           <div className="relative text-lg 14l:text-xl lg:text-base inline-block 14l:w-[817px] 12l:w-[700px] lg:w[450px] lg:-mt-12 12l:-mt-16 14l:-mt-20 18l:-mt-24">{`College-specific chat-based community app that provides building blocks to eliminate loneliness, procrastination & increase productivity.`}</div>
         </div>
-        <Button text="Whishlist Now" />
+        <Button />
         <div className="absolute top-[0px] left-[-5px] w-[300px] 14l:w-[350px] 18l:w-[390px] flex flex-col items-start justify-start box-border gap-[12px] text-xl text-text-primary1">
           <motion.img
             initial={{ opacity: 1, x: 0, y: 0 }}
