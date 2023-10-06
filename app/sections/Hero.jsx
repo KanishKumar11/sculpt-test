@@ -50,8 +50,8 @@ const Hero = () => {
     const imageY = scrollY * 0.7; // Adjust vertical movement
 
     controls.start({ x: progress * imageX, y: progress * imageY });
-    controls2.start({ x: progress * imageX * 1.3, y: progress * imageY });
-    controls3.start({ x: progress * imageX * 1.5, y: progress * imageY });
+    controls2.start({ x: progress * imageX * 0.8, y: progress * imageY });
+    controls3.start({ x: progress * imageX * 1.3, y: progress * imageY });
     rightcontrols.start({ x: progress * rightImageX, y: progress * imageY });
     const test1 = document.getElementById("test1");
     const test2 = document.getElementById("test2");
@@ -72,10 +72,10 @@ const Hero = () => {
     <div className="w-full relative">
       <div className="18l:w-[964px] flex flex-col items-center justify-center mx-auto mt-28 gap-[24px] text-center 14l:w-[800px] 12l:w-[600px] lg:w-[450px] 14l:-text-[42px] 12l:text-[34px] lg:text-[24px] 18l:text-[50px] font-subtitle-1">
         <div className="flex flex-col items-center justify-start gap-[16px]">
-          <div className="font-semibold">
+          <div className="font-semibold leading-[80px]">
             <h1>Making college life worth-while </h1>
           </div>
-          <div className="relative text-lg 14l:text-xl lg:text-base inline-block 14l:w-[817px] 12l:w-[700px] lg:w[450px] lg:-mt-12 12l:-mt-16 14l:-mt-20 18l:-mt-24">{`College-specific chat-based community app that provides building blocks to eliminate loneliness, procrastination & increase productivity.`}</div>
+          <div className="relative text-lg 14l:text-xl lg:text-base inline-block 14l:w-[817px] 12l:w-[700px] lg:w[450px] lg:-mt-12 12l:-mt-8 14l:-mt-20 18l:-mt-24">{`Products  that helps reduce loneliness, overcome procrastination, and enhance productivity among college students.`}</div>
         </div>
         <Button />
         <div className="absolute top-[0px] left-[-5px] w-[300px] 14l:w-[350px] 18l:w-[390px] flex flex-col items-start justify-start box-border gap-[12px] text-xl text-text-primary1">
@@ -171,7 +171,7 @@ const Hero = () => {
       <div className="absolute top-[1800px] flex flex-col items-center justify-center w-full gap-[80px] text-center text-45xl font-subtitle-1">
         <div className="flex flex-col items-center justify-start gap-[24px]">
           <div className="self-stretch relative font-semibold">{`THIS IS SCULPT `}</div>
-          <div className="self-stretch relative text-xl w-[1000px]">{`A college-specific chat-based platform where you can chat, study & use it as a productivity platform & it’s a platform where you can find like-minded peers from colleges to build communities, learn & grow together `}</div>
+          <div className="self-stretch relative text-xl w-[1000px]">{`A college-specific chat-based platform where you can chat, study & use it as a productivity platform & it’s a platform where you can find like-minded peers from colleges to build communities, learn & grow together.`}</div>
         </div>
         <div className="w-full gap-10 px-10 mx-10 flex flex-wrap items-center justify-center text-left text-13xl">
           <div className="w-[25%] h-auto rounded-2xl bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
@@ -180,10 +180,10 @@ const Hero = () => {
               alt=""
               src="/asset10.svg"
             />
-            <div className="relative font-medium inline-block w-[375px]">
+            <div className="relative font-medium inline-block w-full">
               Dedicated chat system
             </div>
-            <div className="relative text-base inline-block w-[375px]">
+            <div className="relative text-base inline-block w-full">
               A dedicated chat system designed for college students where
               students can organize, chat, and document stuff like never before.
             </div>
@@ -194,8 +194,8 @@ const Hero = () => {
               alt=""
               src="/asset11.svg"
             />
-            <div className="relative font-medium inline-block w-[375px]">{`Building Communities `}</div>
-            <div className="relative text-base inline-block w-[375px]">{`Creating the best community experience where you can interact with like-minded people, create communities & grow together 🚀`}</div>
+            <div className="relative font-medium inline-block w-full">{`Building Communities `}</div>
+            <div className="relative text-base inline-block w-full">{`Creating the best community experience where you can interact with like-minded people, create communities & grow together 🚀`}</div>
           </div>
           <div className="rounded-2xl h-auto w-[25%] bg-gray flex flex-col items-start justify-start p-6 gap-[16px]">
             <img
@@ -203,8 +203,8 @@ const Hero = () => {
               alt=""
               src="/asset12.svg"
             />
-            <div className="relative font-medium inline-block w-[375px]">{`Improving college life `}</div>
-            <div className="relative text-base inline-block w-[375px]">{`With our tech & sections from great minds to college students, we are confident that we will elevate and enhance your college experience.`}</div>
+            <div className="relative font-medium inline-block w-full">{`Improving college life `}</div>
+            <div className="relative text-base inline-block w-full">{`With our tech & sections from great minds to college students, we are confident that we will elevate and enhance your college experience.`}</div>
           </div>
         </div>
       </div>

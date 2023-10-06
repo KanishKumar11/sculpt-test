@@ -19,7 +19,7 @@ const Mobile = () => {
     <div className="lg:hidden block relative bg-common-white w-full h-[4320px] overflow-hidden text-left text-sm text-black font-poppins">
       <Navbar />
       <div className="absolute top-[1002px] bg-lavender-100 w-full h-[1270px] tab:h-[1100px]" />
-      <div className="absolute top-[127px] -left-5 bg-common-white shadow-[0px_0px_2px_rgba(145,_158,_171,_0.2),_0px_12px_24px_-4px_rgba(145,_158,_171,_0.12)] w-[187px] flex flex-col items-start justify-start py-2.5 px-4 box-border text-text-primary1">
+      <div className="absolute top-[127px] -left-5 w-[187px] flex flex-col items-start justify-start py-2.5 px-4 box-border text-text-primary1">
         <div className="self-stretch flex flex-col items-start justify-start gap-[12px]">
           <div className="flex flex-row items-center justify-start gap-[8px]">
             <img src="./asset17.svg" />
@@ -27,9 +27,9 @@ const Mobile = () => {
         </div>
       </div>
       <div className="absolute top-[294px] left-[calc(50%_-_195px)] bg-common-white w-[390px] flex flex-col items-center justify-start py-0 px-6 box-border gap-[16px] text-center text-21xl font-h4-medium">
-        <div className="self-stretch flex flex-col items-center justify-start gap-[8px]">
+        <div className="self-stretch flex flex-col items-center justify-start gap-[14px]">
           <div className="self-stretch relative font-semibold">{`Making college life worth-while `}</div>
-          <div className="self-stretch relative text-sm">{`College-specific chat-based community app that provides building blocks to eliminate loneliness, procrastination & increase productivity.`}</div>
+          <div className="self-stretch relative text-sm">{`Products  that helps reduce loneliness, overcome procrastination, and enhance productivity among college students.`}</div>
         </div>
         <div className="rounded-lg flex flex-row items-center justify-start py-4 px-6 box-border text-sm text-common-white">
           <Button text="join Wishlist" />
@@ -47,7 +47,7 @@ const Mobile = () => {
           />
         ))}
       </div>
-      <div className="absolute top-[617.47px] left-[-11px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
+      <div className="absolute top-[550.47px] left-[-45px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
         <img src="./asset19.svg" className="w-[125px]" />
       </div>
       <div className="absolute top-[596px] -right-5 rounded-lg flex flex-col items-start justify-start p-3 box-border gap-[16px] text-text-primary1">
@@ -157,22 +157,22 @@ const Mobile = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[3069.91px] left-[0px] w-full h-[771.45px] text-base font-h4-medium">
+      <div className="absolute top-[3010.91px] left-[0px] w-full h-[771.45px] text-base font-h4-medium">
         <img
-          className="absolute top-[140.09px] left-[16px] rounded-31xl w-10 h-10"
+          className="absolute top-[70.09px] left-[16px] rounded-31xl w-10 h-10"
           alt=""
           src="./asset22.svg"
         />
-        <div className="absolute top-[194.35px] flex flex-col items-center justify-center w-full py-0 md:px-4 gap-[16px] text-center text-13xl">
+        <div className="absolute top-[150.35px] flex flex-col items-center justify-center w-full py-0 md:px-4 gap-[16px] text-center text-13xl">
           <div className="w-[300px] max-w-[358px] flex flex-col items-start justify-start gap-[8px]">
-            <div className="self-stretch relative font-semibold">{`Launching soon `}</div>
+            <div className="self-stretch relative font-semibold">{`Launching soon ! `}</div>
             <div className="self-stretch relative text-sm font-medium text-slategray">
               <span>
-                We will be launching our Beta app in selected colleges this
-                December.
+                We will be launching our Beta app in selected colleges December
+                2023.
               </span>
               <span className="text-lightgray">{` `}</span>
-              <span className="text-purple-100">{`Be the first college to be the part of sculpt  &  make college worth-while `}</span>
+              <span className="text-purple-100">{`Be the first college to be the part of sculpt  &  make college life worth-while `}</span>
               <span className="text-black">.</span>
             </div>
           </div>
@@ -181,7 +181,7 @@ const Mobile = () => {
           </div>
         </div>
         <div className="absolute top-[418.45px] left-2 rounded-lg bg-common-white shadow-[0px_0px_2px_rgba(145,_158,_171,_0.2),_0px_12px_24px_-4px_rgba(145,_158,_171,_0.12)] overflow-hidden flex flex-col items-start justify-start p-4 gap-[12px] [transform:_rotate(-0.03deg)] [transform-origin:0_0] text-purple-100">
-          <div className="relative bg-secoundary-main w-2 h-2" />
+          <div className="relative bg-[#18c95f] w-2 h-2" />
           <div className="self-stretch flex flex-row items-center justify-start">
             <div className="flex-1 relative font-medium">{`Sampreet kulkarni `}</div>
           </div>
@@ -227,7 +227,7 @@ const Mobile = () => {
             </div>
           </div>
         </div>
-        <div className="absolute -top-[70px] right-2 rounded-lg flex flex-row items-center justify-start p-4 box-border [transform:_rotate(9.15deg)] [transform-origin:0_0] text-text-primary1">
+        <div className="absolute -top-[70px] right-2 rounded-lg flex flex-row items-center justify-start p-4 box-border [transform-origin:0_0] text-text-primary1">
           <a
             href="mailto:kulkarnisampreet9@gmail.com
 "
@@ -245,7 +245,10 @@ const Mobile = () => {
           />
         </a>
         <div className="self-stretch flex flex-row items-start justify-start gap-[16px]">
-          <div className="relative leading-[140%]">{`Join Wishlist `}</div>
+          <a href="">
+            {" "}
+            <div className="relative leading-[140%]">{`Join Wishlist `}</div>
+          </a>
         </div>
         <div className="self-stretch flex flex-col items-start justify-start text-13xl font-h4-medium">
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px]">

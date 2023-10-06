@@ -38,7 +38,7 @@ const Home = () => {
               make college life truly enjoyable.
             </div>
           </div>
-          <div className="flex flex-col items-start justify-start gap-[56px] text-xl px-5">
+          <div className="flex flex-col items-start justify-start gap-[36px] text-xl px-5">
             <div className="px-2">
               Without communication tools and AI capabilities, WhatsApp groups
               can become cluttered for students and college staff.
@@ -61,13 +61,13 @@ const Home = () => {
         </div>
         <div className="absolute top-[3320px] 12l:top-[3087px] w-full flex flex-col items-center justify-start gap-[24px] text-center text-45xl font-subtitle-1">
           <div className="self-stretch flex flex-col items-center justify-center gap-[16px]">
-            <div className="self-stretch relative font-semibold">{`Launching soon `}</div>
+            <div className="self-stretch relative font-semibold">{`Launching Soon !`}</div>
             <div className="w-[700px] text-xl">
               <span className="w-[700px]">
-                We will be launching our Beta app in selected collages this
-                December
+                We will be launching our Beta app in selected colleges December
+                2023
               </span>
-              <span className="text-purple-100">{`. Be the first collage to be the part of sculpt  &  make collage worth-while `}</span>
+              <span className="text-purple-100">{`. Be the first college to be the part of sculpt  &  make college life worth-while `}</span>
               <span>.</span>
             </div>
           </div>
@@ -84,9 +84,9 @@ const Home = () => {
             right: 50,
             bottom: 50,
           }}
-          className="absolute top-[3500px] z-[99] 12l:top-[3353.79px] rounded-lg bg-white shadow-[0px_0px_2px_rgba(145,_158,_171,_0.2),_0px_12px_24px_-4px_rgba(145,_158,_171,_0.12)] w-[286px] overflow-hidden flex flex-col items-start justify-start p-4 box-border gap-[12px] [transform:_rotate(-5.17deg)] [transform-origin:0_0] text-5xl text-purple-100 font-subtitle-1"
+          className="absolute top-[3500px] left-[120px] z-[99] 12l:top-[3353.79px] rounded-lg bg-white shadow-[0px_0px_2px_rgba(145,_158,_171,_0.2),_0px_12px_24px_-4px_rgba(145,_158,_171,_0.12)] w-[286px] overflow-hidden flex flex-col items-start justify-start p-4 box-border gap-[12px] [transform-origin:0_0] text-5xl text-purple-100 font-subtitle-1"
         >
-          <div className="relative bg-secoundary-main w-2 h-2" />
+          <div className="relative bg-[#18c95f] w-2 h-2" />
           <div className="self-stretch flex flex-row items-center justify-start">
             <div className="flex-1 relative font-medium">{`Sampreet kulkarni `}</div>
           </div>
@@ -140,7 +140,7 @@ const Home = () => {
             right: 50,
             bottom: 50,
           }}
-          className="absolute top-[3680px] cursor-pointer 12l:top-[3586px] -right-20 rounded-lg h-[100px] flex flex-row items-center justify-start p-4 gap-[16px] [transform:_rotate(0.24deg)] [transform-origin:0_0] text-5xl text-text-primary1 font-subtitle-1"
+          className="absolute top-[3680px] cursor-pointer 12l:top-[3586px]  right-5 rounded-lg h-[100px] flex flex-row items-center justify-start p-4 gap-[16px] [transform:_rotate(0.24deg)] [transform-origin:0_0] text-5xl text-text-primary1 font-subtitle-1"
         >
           <a href="mailto:kulkarnisampreet9@gmail.com">
             {" "}
