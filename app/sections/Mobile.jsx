@@ -47,7 +47,7 @@ const Mobile = () => {
           />
         ))}
       </div>
-      <div className="absolute top-[550.47px] left-[-45px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
+      <div className="absolute top-[600.47px] left-[-15px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
         <img src="./asset19.svg" className="w-[125px]" />
       </div>
       <div className="absolute top-[596px] -right-5 rounded-lg flex flex-col items-start justify-start p-3 box-border gap-[16px] text-text-primary1">
