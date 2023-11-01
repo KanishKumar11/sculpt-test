@@ -18,8 +18,8 @@ const Mobile = () => {
   return (
     <div className="lg:hidden block relative bg-common-white w-full h-[4320px] overflow-hidden text-left text-sm text-black font-poppins">
       <Navbar />
-      <div className="absolute top-[1002px] bg-lavender-100 w-full h-[1270px] tab:h-[1100px]" />
-      <div className="absolute top-[127px] -left-5 w-[187px] flex flex-col items-start justify-start py-2.5 px-4 box-border text-text-primary1">
+      <div className="absolute top-[1122px] bg-lavender-100 w-full h-[1270px] tab:h-[1100px]" />
+      <div className="absolute top-[107px] -left-5 w-[187px] flex flex-col items-start justify-start py-2.5 px-4 box-border text-text-primary1">
         <div className="self-stretch flex flex-col items-start justify-start gap-[12px]">
           <div className="flex flex-row items-center justify-start gap-[8px]">
             <img src="./asset17.svg" />
@@ -51,23 +51,23 @@ const Mobile = () => {
         <img src="./asset27.svg" className="absolute left-1/3" />
         <img src="/asset26.svg" className="absolute z-10 top-[30px]" />
       </div>
-      <div className="absolute top-[680.47px] left-[-15px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
+      <div className="absolute top-[720.47px] left-[-15px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
         <img src="./asset19.svg" className="w-[125px]" />
       </div>
-      <div className="absolute top-[666px] -right-5 rounded-lg flex flex-col items-start justify-start p-3 box-border gap-[16px] text-text-primary1">
+      <div className="absolute top-[686px] -right-5 rounded-lg flex flex-col items-start justify-start p-3 box-border gap-[16px] text-text-primary1">
         <img src="./asset20.svg" alt="" srcset="" className="w-[180px]" />
       </div>
-      <div className="absolute top-[840px] right-20 flex flex-row items-start justify-start gap-[13px] [transform:_rotate(270deg)] [transform-origin:0_0]">
+      <div className="absolute top-[880px] right-20 flex flex-row items-start justify-start gap-[13px] [transform:_rotate(270deg)] [transform-origin:0_0]">
         <img src="./asset3.svg" alt="" srcset="" />
       </div>
-      <div className="absolute top-[850px] items-center justify-center flex w-full">
+      <div className="absolute top-[910px] items-center justify-center flex w-full">
         <img
           className="mx-auto h-[435px] object-cover"
           alt=""
           src="asset9.svg"
         />
       </div>
-      <div className="absolute top-[1307px] w-full flex flex-col items-center justify-start py-0 px-4 box-border gap-[64px] text-center text-21xl font-h4-medium">
+      <div className="absolute top-[1407px] w-full flex flex-col items-center justify-start py-0 px-4 box-border gap-[64px] text-center text-21xl font-h4-medium">
         <div className="self-stretch flex flex-col items-center justify-center gap-[16px]">
           <div className="self-stretch relative font-semibold">{`THIS IS SCULPT `}</div>
           <div className="self-stretch relative text-sm w-[300px] md:w-[350px] mx-auto">{`A college-specific chat-based platform where you can chat, study & use it as a productivity platform & it’s a platform where you can find like-minded peers from colleges to build communities, learn & grow together `}</div>
@@ -107,7 +107,7 @@ const Mobile = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-[2244px] tab:top-[2244px] flex flex-col items-start justify-start w-full py-6 px-6 pr-8 gap-[40px] text-13xl font-h4-medium">
+      <div className="absolute top-[2344px] tab:top-[2244px] flex flex-col items-start justify-start w-full py-6 px-6 pr-8 gap-[40px] text-13xl font-h4-medium">
         <div className="self-stretch flex flex-col items-center justify-center gap-[4px] md:w-full mt-10  max-w-[350px] w-[340px]">
           <div className="self-stretch relative font-semibold">{`Why build Sculpt `}</div>
           <div className="self-stretch relative text-sm text-text-secoundry">
@@ -240,7 +240,7 @@ const Mobile = () => {
             </div>
           </div>
         </div>
-        <div className="absolute -top-[70px] right-2 rounded-lg flex flex-row items-center justify-start p-4 box-border [transform-origin:0_0] text-text-primary1">
+        <div className="absolute -top-[50px] right-2 rounded-lg flex flex-row items-center justify-start p-4 box-border [transform-origin:0_0] text-text-primary1">
           <a
             href="mailto:kulkarnisampreet9@gmail.com
 "

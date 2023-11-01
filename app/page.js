@@ -111,6 +111,15 @@ const Home = () => {
               <div className="flex-1 flex flex-row items-center justify-start">
                 <a
                   className="flex-1 relative [text-decoration:underline] text-[inherit]"
+                  href="https://www.instagram.com/sculpt_guy__sampreet_/"
+                  target="_blank"
+                >{`Instagram `}</a>
+              </div>
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start">
+              <div className="flex-1 flex flex-row items-center justify-start">
+                <a
+                  className="flex-1 relative [text-decoration:underline] text-[inherit]"
                   href="https://www.linkedin.com/in/sampreet-kulkarni-35b4b620b/"
                   target="_blank"
                 >{`LinkedIn `}</a>
