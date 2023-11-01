@@ -32,7 +32,7 @@ const Mobile = () => {
           <div className="self-stretch relative text-sm">{`Products  that helps reduce loneliness, overcome procrastination, and enhance productivity among college students.`}</div>
         </div>
         <div className="rounded-lg flex flex-row items-center justify-start py-4 px-6 box-border text-sm text-common-white">
-          <Button text="join Wishlist" />
+          <Button name="Fill a short survey form" />
         </div>
       </div>
       <div className="absolute top-[103px] -right-24 rounded-lg w-56 flex flex-col items-start justify-start py-2 px-3 box-border gap-[8px] [transform:_rotate(10.44deg)] [transform-origin:0_0]">
@@ -47,16 +47,20 @@ const Mobile = () => {
           />
         ))}
       </div>
-      <div className="absolute top-[600.47px] left-[-15px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
+      <div className="absolute top-[550px] w-full">
+        <img src="./asset27.svg" className="absolute left-1/3" />
+        <img src="/asset26.svg" className="absolute z-10 top-[30px]" />
+      </div>
+      <div className="absolute top-[680.47px] left-[-15px] rounded  flex flex-col items-start justify-center p-2 box-border gap-[4px] [transform:_rotate(-9.17deg)] [transform-origin:0_0] text-text-primary1">
         <img src="./asset19.svg" className="w-[125px]" />
       </div>
-      <div className="absolute top-[596px] -right-5 rounded-lg flex flex-col items-start justify-start p-3 box-border gap-[16px] text-text-primary1">
+      <div className="absolute top-[666px] -right-5 rounded-lg flex flex-col items-start justify-start p-3 box-border gap-[16px] text-text-primary1">
         <img src="./asset20.svg" alt="" srcset="" className="w-[180px]" />
       </div>
-      <div className="absolute top-[780px] right-20 flex flex-row items-start justify-start gap-[13px] [transform:_rotate(270deg)] [transform-origin:0_0]">
+      <div className="absolute top-[840px] right-20 flex flex-row items-start justify-start gap-[13px] [transform:_rotate(270deg)] [transform-origin:0_0]">
         <img src="./asset3.svg" alt="" srcset="" />
       </div>
-      <div className="absolute top-[820px] items-center justify-center flex w-full">
+      <div className="absolute top-[850px] items-center justify-center flex w-full">
         <img
           className="mx-auto h-[435px] object-cover"
           alt=""
@@ -177,7 +181,7 @@ const Mobile = () => {
             </div>
           </div>
           <div className="rounded-lg  flex flex-row items-center justify-start py-4 px-6 box-border text-sm text-common-white">
-            <Button />
+            <Button name="Join the Beta" />
           </div>
         </div>
         <div className="absolute top-[418.45px] left-2 rounded-lg bg-common-white shadow-[0px_0px_2px_rgba(145,_158,_171,_0.2),_0px_12px_24px_-4px_rgba(145,_158,_171,_0.12)] overflow-hidden flex flex-col items-start justify-start p-4 gap-[12px] [transform:_rotate(-0.03deg)] [transform-origin:0_0] text-purple-100">
@@ -193,6 +197,15 @@ const Mobile = () => {
           <div className="self-stretch flex flex-col items-start justify-start gap-[8px] text-sm text-text-primary font-poppins">
             <div className="self-stretch overflow-hidden flex flex-row items-center justify-start text-xs text-text-primary1 font-h4-medium">
               <div className="flex-1 relative font-medium">{`Founder, CEO @ Sculpt `}</div>
+            </div>
+            <div className="self-stretch flex flex-row items-start justify-start">
+              <div className="flex-1 flex flex-row items-center justify-start">
+                <a
+                  className="flex-1 relative [text-decoration:underline] text-[inherit]"
+                  href="https://www.instagram.com/sculpt_guy__sampreet_/"
+                  target="_blank"
+                >{`Instagram `}</a>
+              </div>
             </div>
             <div className="self-stretch flex flex-row items-start justify-start">
               <div className="flex-1 flex flex-row items-center justify-start">

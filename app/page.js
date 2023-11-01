@@ -40,22 +40,30 @@ const Home = () => {
           </div>
           <div className="flex flex-col items-start justify-start gap-[36px] text-xl px-5">
             <div className="px-2">
-              Without communication tools and AI capabilities, WhatsApp groups
-              can become cluttered for students and college staff.
+              <li>
+                Without communication tools and AI capabilities, WhatsApp groups
+                can become cluttered for students and college staff.
+              </li>
             </div>
             <div className="px-2">
-              Loneliness among college students is common as they struggle to
-              find peers who share their interests, skills, and thoughts. I have
-              personally experienced this problem and unfortunately lost a
-              friend to suicide because of it.
+              <li>
+                Loneliness among college students is common as they struggle to
+                find peers who share their interests, skills, and thoughts. I
+                have personally experienced this problem and unfortunately lost
+                a friend to suicide because of it.
+              </li>
             </div>
             <div className="px-2">
-              Lack of college student community for connecting, creating,
-              collaborating, and growing together.
+              <li>
+                Lack of college student community for connecting, creating,
+                collaborating, and growing together.
+              </li>
             </div>
             <div className="px-2">
-              Students face the challenge of procrastination due to social media
-              use, lack of motivation, and seeking social validation.
+              <li>
+                Students face the challenge of procrastination due to social
+                media use, lack of motivation, and seeking social validation.
+              </li>
             </div>
           </div>
         </div>
@@ -73,7 +81,7 @@ const Home = () => {
           </div>
           <div className="rounded-lg flex flex-row items-end justify-start py-3.5 px-10 text-left text-xl text-white">
             {/* <div className="relative font-semibold">{` Wishlist now  `}</div> */}
-            <Button />
+            <Button name="Join the Beta" />
           </div>
         </div>
         <motion.div

@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link rel="favicon" href="./favicon.ico" />
+      <link rel="favicon" href="/favicon.ico" type="img/icon" />
       <body className={` ${inter.className} ${manrope.className}`}>
         {children}
       </body>
