@@ -70,7 +70,7 @@ const Mobile = () => {
       <div className="absolute top-[1407px] w-full flex flex-col items-center justify-start py-0 px-4 box-border gap-[64px] text-center text-21xl font-h4-medium">
         <div className="self-stretch flex flex-col items-center justify-center gap-[16px]">
           <div className="self-stretch relative font-semibold">{`THIS IS SCULPT `}</div>
-          <div className="self-stretch relative text-sm w-[300px] md:w-[350px] mx-auto">{`A college-specific chat-based platform where you can chat, study & use it as a productivity platform & it’s a platform where you can find like-minded peers from colleges to build communities, learn & grow together `}</div>
+          <div className="self-stretch relative text-sm w-[330px] md:w-[350px] mx-auto">{`A college-specific chat-based platform where you can chat, study & use it as a productivity platform & it’s a platform where you can find like-minded peers from colleges to build communities, learn & grow together `}</div>
         </div>
         <div className="self-stretch flex flex-wrap w-full items-center justify-center gap-[24px] text-left text-xl">
           <div className="self-stretch rounded-lg bg-gray flex flex-col items-start justify-start py-6 px-4 gap-[16px] max-w-[300px]">
@@ -168,15 +168,15 @@ const Mobile = () => {
           src="./asset22.svg"
         />
         <div className="absolute top-[150.35px] flex flex-col items-center justify-center w-full py-0 md:px-4 gap-[16px] text-center text-13xl">
-          <div className="w-[300px] max-w-[358px] flex flex-col items-start justify-start gap-[8px]">
+          <div className="w-[340px] max-w-[380px] flex flex-col items-start justify-start gap-[8px]">
             <div className="self-stretch relative font-semibold">{`Launching soon ! `}</div>
             <div className="self-stretch relative text-sm font-medium text-slategray">
-              <span>
+              <span className="w-full">
                 We will be launching our Beta app in selected colleges December
                 2023.
               </span>
               <span className="text-lightgray">{` `}</span>
-              <span className="text-purple-100">{`Be the first college to be the part of sculpt  &  make college life worth-while `}</span>
+              <span className="text-purple-100">{`Be the first college to be the part of sculpt  &  make college life worth-while`}</span>
               <span className="text-black">.</span>
             </div>
           </div>
